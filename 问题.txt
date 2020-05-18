@@ -1,0 +1,2 @@
+问题
+select max(son_id), main_id from t_section where son_id=2000

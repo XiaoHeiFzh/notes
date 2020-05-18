@@ -1,0 +1,80 @@
+5/9 
+数据库
+
+配置
+
+代码测试
+
+shutdown -s -t 7200
+
+http://music.163.com/song/media/outer/url?id=1346788671.mp3
+
+5/10
+
+  {
+    path: '/course',
+    component: Layout,
+    name: 'CoursePage',
+	meta: {
+      title: '课程管理',
+      iconCls: 'el-icon-document'
+    },
+    alwaysShow: true,
+    children: [
+      { path: '/course/list', name: '我的课程',component: course_list,hidden: false },
+      { path: '/course/add/base', name: '新增课程',component: course_add,hidden: true },
+      { path: '/course/manager/:courseid', name: '管理课程',component: course_manage,hidden: true ,
+        children: [
+          { path: '/course/manage/plan/:courseid', name: '课程计划',component: course_plan,hidden: false },
+          { path: '/course/manage/baseinfo/:courseid', name: '基本信息',component: course_baseinfo,hidden: false },
+          { path: '/course/manage/picture/:courseid', name: '课程图片',component: course_picture,hidden: false },
+          { path: '/course/manage/marketinfo/:courseid', name: '营销信息',component: course_marketinfo,hidden: false },
+          { path: '/course/manage/teacher/:courseid', name: '教师信息',component: course_teacher,hidden: false},
+          { path: '/course/manage/pub/:courseid', name: '发布课程',component: course_pub,hidden: false},
+          { path: '/course/manage/summary/:courseid', name: '课程首页',component: course_summary,hidden: false }
+        ]}
+    ]
+  }
+  
+  () => import('@/views/course/
+  
+  [ { "sdName" : "低级", "sdId" : "200001", "sdStatus" : "1" }, { "sdName" : "中级", "sdId" : "200002", "sdStatus" : "1" }, { "sdName" : "高级", "sdId" : "200003", "sdStatus" : "1" } ]
+  
+  { "sdName" : "自由学习", "sdId" : "201001", "sdStatus" : "1" }, { "sdName" : "任务式学习", "sdId" : "201002", "sdStatus" : "1" }
+  
+  [ { "sdName" : "免费", "sdId" : "203001", "sdStatus" : "1" }, { "sdName" : "收费", "sdId" : "203002", "sdStatus" : "1" } ]
+  
+   { "sdName" : "永久有效", "sdId" : "204001", "sdStatus" : "1" }, { "sdName" : "指定时间段", "sdId" : "204002", "sdStatus" : "1" } ]
+   
+   
+5/11
+
+    url: jdbc:mysql://localhost:3306/tourguide?useSSL=false&useUnicode=true&serverTimezone=UTC&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true&allowMultiQueries=true
+jdbc:mysql://localhost:3306/tourguide?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+微信小程序
+wxfb35c2e83fb70f38
+e46faec9991c3a5b035ba4374901e299
+
+
+5/12
+
+chapterVideo
+Demo
+
+
+element
+
+《JavaGuide面试突击版》完结撒花，如果各位觉得不错可以安利给朋友一下，作者在谢过各位了！
+链接: https://pan.baidu.com/s/1ZxLpxFe_7AuUNUUeAUnF0w  密码: g2rc
+
+Guide哥创建了一个专注Java学习，大厂面试的圈子。考虑到关注我的很多都是学生，为了降低加入成本我专门申请了优惠卷 https://t.zsxq.com/vRVFmuR（仅限100人） ，如果你想深入学习 Java ，想进大厂的话，一定不要错过哦！
+
+5/18
+
+复制这段内容后打开百度网盘手机App，操作更方便哦 链接:https://pan.baidu.com/s/1JYXZFDUv5k9HY4AjNWmvNA 提取码:zm7t
+复制这段内容后打开百度网盘手机App，操作更方便哦 链接:https://pan.baidu.com/s/1cKUzCyjhX-iqDJgjYTitHA 提取码:l8c7
+复制这段内容后打开百度网盘手机App，操作更方便哦 链接:https://pan.baidu.com/s/1aC0lv9gGl1Z0hztBGl5HYA 提取码:148c
+
+Vlbvsbhrmfnwjjdf
+
+
